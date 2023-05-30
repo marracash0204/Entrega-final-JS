@@ -38,19 +38,16 @@ main iframe {
 }
 
 .img-carrito{
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
   margin-right: 10px;
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: 5px;
 }
+
 .botonAg {
   background-color: violet;
   border-radius: 15px;
-}
-
-.nav-pills {
-  flex: 0 0 auto;
 }
 
 .nav-link {

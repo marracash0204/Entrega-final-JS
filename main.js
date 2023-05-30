@@ -292,17 +292,17 @@ if (localStorage.getItem("carrito")) {
     mostrarCarrito()
 }
 
-    document.getElementById("btnAbrirPestana").addEventListener("click", () => {
+  document.getElementById("btnAbrirPestana").addEventListener("click", () => {
     document.getElementById("pestañaEmergente").style.display = "block";
     document.getElementById("carritoPestaña").style.display = "none";
   });
   
-  document.getElementById("payment-form").addEventListener("submit",(event) => {
+  document.getElementById("pago-form").addEventListener("submit",(event) => {
     event.preventDefault();
     
-    let cardNumber = document.getElementById("card-number").value;
-    let cardholderName = document.getElementById("card-name").value;
-    let expirationDate = document.getElementById("expiration-date").value;
+    let cardNumber = document.getElementById("tarjeta-number").value;
+    let cardholderName = document.getElementById("tarjeta-name").value;
+    let expirationDate = document.getElementById("expiracion-date").value;
     let cvv = document.getElementById("cvv").value;
 
     if (SubmitEvent, cardNumber, cardholderName, expirationDate, cvv){
@@ -316,6 +316,10 @@ if (localStorage.getItem("carrito")) {
     }
     eliminarTodoElCarrito()
 
+})
+
+document.getElementById("abrirCarrito").addEventListener("click", () => {
+    document.getElementById("carritoPestaña").style.display = "block"
 })
 
 

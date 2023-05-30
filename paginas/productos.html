@@ -50,12 +50,13 @@
         </div>
     </div>
     <!--aqui comienzan la seleccion de imagenes-->
-    <div class="col-xs-9 col-md-9.5 col-lg-10 col-xl-10 img-fluid">
-        <nav id="navbar-example2" class="container navbar bg-dark mt-4">
+    <div class="col-xs-9 col-md-9.5 col-lg-10 col-xl-10">
+        <nav class="navbar bg-dark text-center">
 
-            <a class="navbar-brand ps-4 link-light fw-bolder" href="./productos.html"><img id="abrirCarrito" class="img-fluid img-carrito" src="../media/carritoCompras.png" alt="carrito de compras">Añade Productos</a>
-
-            <ul class="nav nav-pills">
+            
+        <img id="abrirCarrito" class="img-fluid img-carrito" src="../media/carritoCompras.png" alt="carrito de compras">
+        <h4 class="text-light">Elige tus productos</h4>    
+            <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#scrollspyHeading1">Sombras</a>
                 </li>
@@ -108,9 +109,6 @@
                 </article>
             </section>
 
-
-
-
         </main>
        
        
@@ -132,15 +130,15 @@
               <a class="x" href="./productos.html">&#x2716;</a>
           </span>
           <h2>Formulario de Pago</h2>
-          <form id="payment-form">
+          <form id="pago-form">
               <label for="card-number">Número de Tarjeta:</label>
-              <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+              <input type="text" id="tarjeta-number" placeholder="1234 5678 9012 3456" required>
               
               <label for="cardholder-name">Nombre del Titular:</label>
-              <input type="text" id="card-name" placeholder="Juan Pérez" required>
+              <input type="text" id="tarjeta-name" placeholder="Juan Pérez" required>
               
               <label for="expiration-date">Fecha de Expiración:</label>
-              <input type="text" id="expiration-date" placeholder="MM/AA" required>
+              <input type="text" id="expiracion-date" placeholder="MM/AA" required>
               
               <label for="cvv">CVV:</label>
               <input type="text" id="cvv" placeholder="123" required>
