@@ -1,0 +1,257 @@
+body {
+  background-image: linear-gradient(white, violet, rgba(146, 9, 158, 0.349), white); 
+  font-family: Arial, sans-serif;}
+
+.bg_violet {
+  background-color: violet; }
+
+.bg-rosa {
+  background-color: rgb(255, 134, 255);
+}
+
+.bg-morado {
+  background-color: #a649fc; }
+
+.bg_violet:hover {
+  transform: translate(-6px, -6px); }
+
+nav a:hover {
+  transform: translate(5px, 5px);
+  animation-duration: 4s; }
+
+main iframe {
+  height: 600px;
+  width: 100%; }
+
+.logo_circulo {
+  height: 150px; width: 150px;
+}  
+
+.tamañoimg {
+  height: 30px;
+  width: 30px;
+}
+
+.tamañoimg2 {
+  height: 500px;
+  width: 500px;
+}
+
+.img-carrito{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.botonAg {
+  background-color: violet;
+  border-radius: 15px;
+}
+
+.nav-pills {
+  flex: 0 0 auto;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+.espacio {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.btnMM {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.btnCar {
+  height: 30px;
+  width: 30px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.carritoSticky {
+  display: none;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid;
+  transition: height 0.5s linear;
+  position: fixed;
+  bottom: 5px;
+  right: 15px;
+  width: 550px;
+  max-height: 300px;
+  padding: 10px;
+  z-index: 999;
+  overflow-y: auto;
+}
+
+.pestañaEmergente {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.contenido {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff; 
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.botonF {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.x{
+  position: relative;
+  right: 2%;
+  bottom: 12px;
+  color: magenta;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .carritoSticky {
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+    transition: height 0.5s linear;
+    position: fixed;
+    bottom: 5px;
+    right: 15px;
+    width: 262px;
+    max-height: 250px;
+    padding: 10px;
+    z-index: 999;
+    overflow-y: auto;
+  }
+}
+/* .botonAb {
+  background-color: pink;
+  border-radius: 5px;
+  border: 1px solid;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  right: 524px;
+  top: 486px;
+} */
+/* .carritoSticky.minimizado {
+  height: 50px;
+}
+
+.carritoSticky.minimizado .btn-carrito {
+  display: block;
+}
+
+.carritoSticky.minimizado .carrito-contenido {
+  display: none;
+}
+
+.carrito-contenido {
+  margin-top: 10px;
+}
+
+.producto img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+} */
+
+/* .producto span {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.botonAg {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn-carrito {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: none;
+}
+ */
+ .containerC {
+  display: flex;
+  justify-content: center;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px; /* Ajusta según sea necesario */
+  margin: 0 auto;
+}
+
+.cardC {
+  flex-basis: calc(33.33% - 20px);
+  margin: 10px;
+  /* Estilos adicionales de la tarjeta */
+}
+
+@media (max-width: 991px) {
+  .cardC {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 767px) {
+  .cardC {
+    flex-basis: 100%;
+  }
+}

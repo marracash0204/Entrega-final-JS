@@ -1,0 +1,31 @@
+
+{
+    "labiales":[
+		{"id": 1, "nombre": "L. Mac", "precio": 600, "img": "../imgLabiales/labial_mac.jpg"},
+		{"id": 2, "nombre": "L. Magico Flor", "precio": 450, "img": "../imgLabiales/labial_magico_flor.jpg"},
+		{"id": 3, "nombre":  "L. Mate", "precio": 530, "img": "../imgLabiales/labial_mate.jpg"},
+		{"id": 4, "nombre":  "L. Mii's", "precio": 340, "img": "../imgLabiales/labial_mii's.jpg"},
+		{"id": 5, "nombre":  "L. Ushas", "precio": 420, "img": "../imgLabiales/labial_ushas.jpg"},
+		{"id": 6, "nombre":  "Tinta", "precio": 430, "img": "../imgLabiales/tinta_labios.jpg"}
+	],
+	"polvos":[
+		{"id": 7, "nombre": "P. Aloe Vera", "precio": 440, "img": "../imgPolvos/polvo_aloe_vera.jpg"},
+		{"id": 8, "nombre": "P. BB Olive", "precio": 250, "img": "../imgPolvos/polvo_bb.jpg"},
+		{"id": 9, "nombre":  "P. Compacto", "precio": 530, "img": "../imgPolvos/polvo_compacto.jpg"},
+		{"id": 10, "nombre":  "P. Mac", "precio": 340, "img": "../imgPolvos/polvo_mac.jpg"},
+		{"id": 11, "nombre":  "P. Sueltos", "precio": 320, "img": "../imgPolvos/polvos_sueltos.jpg"}
+	],
+	"sombras":[
+		{"id": 12, "nombre": "S. Beauty", "precio": 680, "img": "../imgSombras/sombra_beauty.jpg"},
+		{"id": 13, "nombre": "S. Canlen", "precio": 420, "img": "../imgSombras/sombra_canlen.jpg"},
+		{"id": 14, "nombre":  "S. Fabbla", "precio": 550, "img": "../imgSombras/sombra_fabbla.jpg"},
+		{"id": 15, "nombre":  "S. Fantastic Word", "precio": 370, "img": "../imgSombras/sombra_fantastic_word.jpg"},
+		{"id": 16, "nombre":  "S. Majestic Galaxy", "precio": 410, "img": "../imgSombras/sombra_majestic_galaxy.jpg"},
+		{"id": 17, "nombre":  "S. Meet Beauty", "precio": 420, "img": "../imgSombras/sombra_meet_beauty.jpg"}
+	]
+}
+
+
+
+
+
