@@ -53,9 +53,10 @@
     <div class="col-xs-9 col-md-9.5 col-lg-10 col-xl-10">
         <nav class="navbar bg-dark text-center">
 
-            
-        <img id="abrirCarrito" class="img-fluid img-carrito" src="../media/carritoCompras.png" alt="carrito de compras">
-        <h4 class="text-light">Elige tus productos</h4>    
+
+            <img id="abrirCarrito" class="img-fluid img-carrito" src="../media/carritoCompras.png"
+                alt="carrito de compras">
+            <h4 class="text-light">Elige tus productos</h4>
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#scrollspyHeading1">Sombras</a>
@@ -68,7 +69,7 @@
                 </li>
             </ul>
         </nav>
-        
+
 
         <main data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
             data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2 container"
@@ -110,45 +111,45 @@
             </section>
 
         </main>
-       
-       
+
+
         <div id="carritoPestaña" class="carritoSticky row text-center">
             <hr class="border border-dark">
             <h3 class="pb-2">Productos agregados</h3>
             <hr class="border border-dark">
             <div id="contenedorCarrito" class="row text-center">
-            </div> 
+            </div>
             <button id="vaciarCarrito" class="botonAg btn">Eliminar todos los productos</button>
             <h3 class="fw-semibold">El monto actual es de: $<span id="total"></span></h3>
 
-            <button id="btnAbrirPestana" >Finalizar Compra</button>
+            <button id="btnAbrirPestana">Finalizar Compra</button>
         </div>
     </div>
     <div id="pestañaEmergente" class="pestañaEmergente">
         <div class="contenido">
-          <span class="close-button">
-              <a class="x" href="./productos.html">&#x2716;</a>
-          </span>
-          <h2>Formulario de Pago</h2>
-          <form id="pago-form">
-              <label for="card-number">Número de Tarjeta:</label>
-              <input type="text" id="tarjeta-number" placeholder="1234 5678 9012 3456" required>
-              
-              <label for="cardholder-name">Nombre del Titular:</label>
-              <input type="text" id="tarjeta-name" placeholder="Juan Pérez" required>
-              
-              <label for="expiration-date">Fecha de Expiración:</label>
-              <input type="text" id="expiracion-date" placeholder="MM/AA" required>
-              
-              <label for="cvv">CVV:</label>
-              <input type="text" id="cvv" placeholder="123" required>
-              <h3 class="fw-semibold">Su pago total será de: <span class=" bg-rosa" id="total2"></span></h3>
-              <hr class="border border-dark">
-              <button class="botonF" type="submit">Realizar Pago</button>
-              
+            <span class="close-button">
+                <a class="x" href="./productos.html">&#x2716;</a>
+            </span>
+            <h2>Formulario de Pago</h2>
+            <form id="pago-form">
+                <label for="card-number">Número de Tarjeta:</label>
+                <input type="text" id="tarjeta-number" placeholder="1234 5678 9012 3456" required>
+
+                <label for="cardholder-name">Nombre del Titular:</label>
+                <input type="text" id="tarjeta-name" placeholder="Juan Pérez" required>
+
+                <label for="expiration-date">Fecha de Expiración:</label>
+                <input type="text" id="expiracion-date" placeholder="MM/AA" required>
+
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" placeholder="123" required>
+                <h3 class="fw-semibold">Su pago total será de: <span class=" bg-rosa" id="total2"></span></h3>
+                <hr class="border border-dark">
+                <button class="botonF" type="submit">Realizar Pago</button>
+
         </div>
-        
-      </div>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

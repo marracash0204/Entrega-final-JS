@@ -1,31 +1,38 @@
 body {
-  background-image: linear-gradient(white, violet, rgba(146, 9, 158, 0.349), white); 
-  font-family: Arial, sans-serif;}
+  background-image: linear-gradient(white, violet, rgba(146, 9, 158, 0.349), white);
+  font-family: Arial, sans-serif;
+}
 
 .bg_violet {
-  background-color: violet; }
+  background-color: violet;
+}
 
 .bg-rosa {
   background-color: rgb(255, 134, 255);
 }
 
 .bg-morado {
-  background-color: #a649fc; }
+  background-color: #a649fc;
+}
 
 .bg_violet:hover {
-  transform: translate(-6px, -6px); }
+  transform: translate(-6px, -6px);
+}
 
 nav a:hover {
   transform: translate(5px, 5px);
-  animation-duration: 4s; }
+  animation-duration: 4s;
+}
 
 main iframe {
   height: 600px;
-  width: 100%; }
+  width: 100%;
+}
 
 .logo_circulo {
-  height: 150px; width: 150px;
-}  
+  height: 150px;
+  width: 150px;
+}
 
 .tamañoimg {
   height: 30px;
@@ -37,7 +44,7 @@ main iframe {
   width: 500px;
 }
 
-.img-carrito{
+.img-carrito {
   height: 25px;
   width: 25px;
   margin-right: 10px;
@@ -107,7 +114,7 @@ main iframe {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff; 
+  background-color: #fff;
   padding: 20px;
   border-radius: 5px;
 }
@@ -121,7 +128,8 @@ form {
   margin: 0 auto;
 }
 
-label, input {
+label,
+input {
   display: block;
   margin-bottom: 10px;
 }
@@ -139,13 +147,14 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.x{
+.x {
   position: relative;
   right: 2%;
   bottom: 12px;
   color: magenta;
   text-decoration: none;
 }
+
 @media screen and (max-width: 768px) {
   .carritoSticky {
     background-color: white;
@@ -162,93 +171,5 @@ input[type="text"] {
     overflow-y: auto;
   }
 }
-/* .botonAb {
-  background-color: pink;
-  border-radius: 5px;
-  border: 1px solid;
-  position: fixed;
-  width: 30px;
-  height: 30px;
-  right: 524px;
-  top: 486px;
-} */
-/* .carritoSticky.minimizado {
-  height: 50px;
-}
 
-.carritoSticky.minimizado .btn-carrito {
-  display: block;
-}
 
-.carritoSticky.minimizado .carrito-contenido {
-  display: none;
-}
-
-.carrito-contenido {
-  margin-top: 10px;
-}
-
-.producto img {
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  margin-right: 10px;
-} */
-
-/* .producto span {
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.botonAg {
-  background-color: #4CAF50;
-  border: none;
-  color: #fff;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-top: 10px;
-}
-
-.btn-carrito {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  background-color: #4CAF50;
-  border: none;
-  color: #fff;
-  padding: 5px 10px;
-  cursor: pointer;
-  display: none;
-}
- */
- .containerC {
-  display: flex;
-  justify-content: center;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1200px; /* Ajusta según sea necesario */
-  margin: 0 auto;
-}
-
-.cardC {
-  flex-basis: calc(33.33% - 20px);
-  margin: 10px;
-  /* Estilos adicionales de la tarjeta */
-}
-
-@media (max-width: 991px) {
-  .cardC {
-    flex-basis: calc(50% - 20px);
-  }
-}
-
-@media (max-width: 767px) {
-  .cardC {
-    flex-basis: 100%;
-  }
-}

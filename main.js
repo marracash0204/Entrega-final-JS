@@ -180,7 +180,7 @@ const mostrarCarrito = () => {
     carrito.forEach(Producto => {
         const card = document.createElement("div");
         card.classList.add("col-xl-4", "col-md-6", "mb-4", "animate__animated", "animate__fadeIn");
-card.innerHTML = `
+        card.innerHTML = `
     <div class="row">
         <div class="col">
             <div class="card">
@@ -292,28 +292,30 @@ if (localStorage.getItem("carrito")) {
     mostrarCarrito()
 }
 
-  document.getElementById("btnAbrirPestana").addEventListener("click", () => {
+
+document.getElementById("btnAbrirPestana").addEventListener("click", () => {
     document.getElementById("pestañaEmergente").style.display = "block";
     document.getElementById("carritoPestaña").style.display = "none";
-  });
-  
-  document.getElementById("pago-form").addEventListener("submit",(event) => {
+});
+
+
+document.getElementById("pago-form").addEventListener("submit", (event) => {
     event.preventDefault();
-    
+
     let cardNumber = document.getElementById("tarjeta-number").value;
     let cardholderName = document.getElementById("tarjeta-name").value;
     let expirationDate = document.getElementById("expiracion-date").value;
     let cvv = document.getElementById("cvv").value;
 
-    if (SubmitEvent, cardNumber, cardholderName, expirationDate, cvv){
-        Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: 'Su compra se realizo correctamente',
-            showConfirmButton: false,
-            timer: 4500
-          })
-    }
+
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Su compra se realizo correctamente',
+        showConfirmButton: false,
+        timer: 4500
+    })
+
     eliminarTodoElCarrito()
 
 })
